@@ -1,0 +1,45 @@
+{
+    "name": "bgaze/silex-finder-provider",
+    "description": "This is a Silex service provider for Symfony finder component",
+    "type": "library",
+    "keywords": [
+        "PHP",
+        "Silex",
+        "Service",
+        "Provider",
+        "ServiceProvider",
+        "Finder",
+        "Sort Desc"
+    ],
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Bgaze\\Silex\\Provider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bgaze\\Silex\\Provider\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin Gazé",
+            "email": "benjamin@bgaze.fr",
+            "homepage": "https://www.bgaze.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "benjamin@bgaze.fr",
+        "issues": "https://github.com/bgaze/silex_finder_provider/issues"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "silex/silex": "~2.0",
+        "symfony/finder": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    }
+}
