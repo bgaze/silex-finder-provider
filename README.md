@@ -3,7 +3,7 @@
 ## Install
 
     composer require bgaze/silex-finder-provider
-
+ 
 ## Usage
 
 Once the provider registred, a Finder instance is available through `$app['finder']`.
