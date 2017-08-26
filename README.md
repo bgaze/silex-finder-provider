@@ -1,4 +1,4 @@
-# Silex Finder Provider
+# Silex Finder Service Provider
 
 ## Install
 
