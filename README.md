@@ -29,7 +29,12 @@ foreach ($app["finder"] as $file) {
 }
 ```
 
-> Like this? Check my [pre-configured skeleton for the Silex microframework][2]!
+# More stuff
+
+[Pre-configured skeleton for the Silex microframework][2]
+
+[CLI application service provider for Silex][3]
 
 [1][https://symfony.com/doc/current/components/finder.html]
 [2][https://github.com/bgaze/silex-skeleton]
+[3][https://github.com/bgaze/silex-console-provider]
