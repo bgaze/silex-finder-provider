@@ -29,7 +29,7 @@ foreach ($app["finder"] as $file) {
 }
 ```
 
-# More stuff
+## More stuff
 
 * [Pre-configured skeleton for the Silex microframework](https://github.com/bgaze/silex-skeleton)
 * [CLI application service provider for Silex](https://github.com/bgaze/silex-console-provider)
