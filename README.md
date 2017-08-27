@@ -1,14 +1,16 @@
-# Silex Finder Service Provider
+# bgaze/silex-finder-provider
+
+A Silex service provider for Symfony finder component.
 
 ## Install
 
 ```
 composer require bgaze/silex-finder-provider dev-master
- ```
+```
 
 ## Usage
 
-Once the provider registred, a Finder instance is available through `$app['finder']`.
+Once the provider is registred, a [Symfony Finder Component][1] instance is available through `$app['finder']`.
 
 ```php
 $app->register(new \Bgaze\Silex\Provider\FinderProvider());
@@ -26,3 +28,8 @@ foreach ($app["finder"] as $file) {
     var_dump($file->getRelativePathname());
 }
 ```
+
+> Like this? Check my [pre-configured skeleton for the Silex microframework][2]!
+
+[1][https://symfony.com/doc/current/components/finder.html]
+[2][https://github.com/bgaze/silex-skeleton]
