@@ -2,7 +2,7 @@
 
 ## Install
 
-    composer require bgaze/silex-finder-provider
+    composer require bgaze/silex-finder-provider dev-master
  
 ## Usage
 

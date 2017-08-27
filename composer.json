@@ -1,6 +1,6 @@
 {
     "name": "bgaze/silex-finder-provider",
-    "description": "This is a Silex service provider for Symfony finder component",
+    "description": "A Silex service provider for Symfony finder component",
     "type": "library",
     "keywords": [
         "PHP",
@@ -8,10 +8,9 @@
         "Service",
         "Provider",
         "ServiceProvider",
-        "Finder",
-        "Sort Desc"
+        "Finder"
     ],
-    "license": "GPL-3.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Bgaze\\Silex\\Provider\\": "src/"
